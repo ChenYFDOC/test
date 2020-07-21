@@ -1,0 +1,157 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>权限管理页面</title>
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap/css/bootstrap.css' %} "/>
+    <script src="{% static 'plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+    <link rel="shortcut icon" href="{% static 'imgs/default.png' %} ">
+    <link rel="stylesheet" href="{% static 'plugins/font-awesome/css/font-awesome.css' %} "/>
+    <link rel="stylesheet" href="{% static 'css/commons.css' %} "/>
+    <link rel="stylesheet" href="{% static 'css/nav.css' %} "/>
+    <link rel="stylesheet" href="{% static 'css/rbac.css' %} "/>
+    <link rel="stylesheet" href="{% static 'layui/css/layui.css' %}">
+    <script src="{% static '/layui/layui.js' %}"></script>
+
+    <style>
+        .list-group li {
+            background-color: #8c8c8c;
+        }
+
+        .list-group li a:hover {
+            text-decoration: none;
+        }
+
+        body {
+            margin: 0;
+            height: 100%;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        .pg-body {
+            height: calc(100vh - 60px);
+        }
+
+        .left-menu {
+            float: left;
+            width: 200px;
+            height: 100%;
+            overflow: auto;
+        }
+
+        .layui-header a {
+            text-decoration: none;
+        }
+
+        .layui-header {
+            background-color: #393d49;
+        }
+
+        .pg-body, .left-menu, .left-tree {
+        {#height: 100%;#} background-color: #272a33;
+        }
+
+        .pg-body > .right-body {
+            box-sizing: border-box;
+            background-color: #f2f2f2;
+            float: left;
+            height: 100%;
+            width: calc(100% - 200px);
+        {#position: absolute;#} border: 1px solid #ddd;
+            font-size: 14px;
+            overflow: auto;
+        }
+
+        .layui-card-one {
+            height: 50px;
+            line-height: 50px;
+            border-bottom: 1px solid #ddd;
+            padding: 0 17px;
+            background-color: white;
+        }
+    </style>
+    <!--某些单独的页面需要用自己的css-->
+    {% block css %}{% endblock %}
+</head>
+<body>
+<!--顶部-->
+<div class="layui-header">
+    <div>
+        <span style="color: #fff; font-size: 14px; line-height: 60px; margin-left: 60px">亿赛通管理系统</span>
+    </div>
+    <!-- 头部区域 -->
+    {#    <ul class="layui-nav layui-layout-left">#}
+    {#        <li class="layui-nav-item layui-hide-xs" lay-unselect="">#}
+    {#            <a href="https://github.com/wkunzhi/CRM-Manage" target="_blank" title="GitHub"><i#}
+    {#                    class="layui-icon layui-icon-star-fill"></i> GitHub#}
+    {#            </a>#}
+    {#        </li>#}
+    {#        <li class="layui-nav-item" lay-unselect="">#}
+    {#            <a href="https://blog.zhangkunzhi.com/2019/12/13/crm%E7%BB%84%E4%BB%B6%E4%BD%BF%E7%94%A8/index.html" target="_blank" layadmin-event="refresh" title="使用说明"><i#}
+    {#                    class="layui-icon layui-icon-read"></i> 使用说明#}
+    {#            </a>#}
+    {#        </li>#}
+    {#        <span class="layui-nav-bar" style="width: 0px; left: 142px; opacity: 0; top: 48px;"></span>#}
+    {#    </ul>#}
+    <ul class="layui-nav layui-layout-right" lay-filter="layadmin-layout-right">
+        <li class="layui-nav-item" lay-unselect="">
+            <a href="javascript:;"> <cite><i class="layui-icon layui-icon-username"></i> 用户</cite> <span
+                    class="layui-nav-more"></span></a>
+            <dl class="layui-nav-child layui-anim layui-anim-upbit">
+                <dd layadmin-event="logout" style="text-align: center;"><a href="/logout/">退出</a></dd>
+            </dl>
+        </li>
+{#        <li class="layui-nav-item layui-hide-xs" lay-unselect="">#}
+{#            <a href="javascript:;" layadmin-event="about"><i class="layui-icon layui-icon-more-vertical"></i></a>#}
+{#        </li>#}
+    </ul>
+</div>
+<!--下部-->
+<div class="pg-body">
+    <!--左侧-->
+    <div class="left-menu">
+        <div class="menu-body">
+            <ul class="list-group">
+                {% for item in left_menu %}
+                    <li class="list-group-item"><a href="{{ item.url }}">{{ item.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <!--右侧-->
+    <div class="right-body">
+        <div class="layui-card-one">
+        </div>
+        <div class="right-t-body">
+            {% block content %} {% endblock %}
+        </div>
+    </div>
+</div>
+<script src="{% static 'js/rbac.js' %} "></script>
+<!--某些单独的页面需要用自己的js-->
+<script>
+    layui.use('element', function () {
+        var element = layui.element;
+    });
+    layui.use('form', function () {
+        var form = layui.form;
+    });
+</script>
+{% block js %} {% endblock %}
+
+<script>
+    let lis = $('.list-group').children('li');
+    for (li of lis) {
+        li = $(li);
+        if (li.find('a').attr('href') === window.location.pathname) {
+            li.addClass('active')
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a53074d-ac65-4d8a-8487-053dae3ee1d8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eks8tMTLUbvsEZPhX4wCAe83ks" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/apps" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/jumpserver/jumpserver.git" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\t\Desktop\auzm\apps" />
+      <recent name="C:\Users\t\Desktop\auzm\apps\cms" />
+      <recent name="C:\Users\t\Desktop\auzm\apps\cms\templates" />
+      <recent name="C:\Users\t\Desktop\auzm\apps\users" />
+      <recent name="C:\Users\t\Desktop\auzm\apps\users\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\t\Desktop\auzm\apps\cms\static\js" />
+      <recent name="C:\Users\t\Desktop\auzm\apps\cms\static\css" />
+      <recent name="C:\Users\t\Desktop\auzm" />
+      <recent name="C:\Users\t\Desktop\auzm\apps" />
+      <recent name="D:\000MyProjects\10PycharmProjects\auzm\apps\users\models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django server.AUZM">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AUZM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AUZM" type="Python.DjangoServer" factoryName="Django server">
+      <module name="AUZM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="auzm.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\t\PycharmProjects\CRM\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="0.0.0.0" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a53074d-ac65-4d8a-8487-053dae3ee1d8" name="Default Changelist" comment="" />
+      <created>1594876768674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594876768674</updated>
+      <workItem from="1594876772471" duration="1216000" />
+      <workItem from="1594887349915" duration="2436000" />
+      <workItem from="1595222401590" duration="14128000" />
+      <workItem from="1595236595793" duration="238000" />
+      <workItem from="1595236846279" duration="1096000" />
+      <workItem from="1595237957639" duration="2216000" />
+      <workItem from="1595292935801" duration="28937000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="811" y="131" key="#Inspections" timestamp="1595235358695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="811" y="131" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1595235358695" />
+    <state x="581" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595239660117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="581" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595239660117" />
+    <state x="866" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595316073862">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="866" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595316073862" />
+    <state x="1320" y="227" key="FileChooserDialogImpl" timestamp="1595229996042">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1320" y="227" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595229996042" />
+    <state width="1340" height="239" key="GridCell.Tab.0.bottom" timestamp="1595324983566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595324983566" />
+    <state width="1340" height="239" key="GridCell.Tab.0.center" timestamp="1595324983565">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595324983565" />
+    <state width="1340" height="239" key="GridCell.Tab.0.left" timestamp="1595324983565">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595324983565" />
+    <state width="1340" height="239" key="GridCell.Tab.0.right" timestamp="1595324983566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595324983566" />
+    <state width="1340" height="296" key="GridCell.Tab.1.bottom" timestamp="1595232445529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="296" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595232445529" />
+    <state width="1340" height="296" key="GridCell.Tab.1.center" timestamp="1595232445529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="296" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595232445529" />
+    <state width="1340" height="296" key="GridCell.Tab.1.left" timestamp="1595232445529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="296" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595232445529" />
+    <state width="1340" height="296" key="GridCell.Tab.1.right" timestamp="1595232445529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="296" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595232445529" />
+    <state x="418" y="119" key="SettingsEditor" timestamp="1595321755398">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="418" y="119" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595321755398" />
+    <state x="911" y="297" key="com.intellij.ide.util.TipDialog" timestamp="1595237957694">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="911" y="297" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595237957694" />
+    <state x="1416" y="307" width="672" height="678" key="search.everywhere.popup" timestamp="1594887375512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1416" y="307" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594887375512" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/auzm$test.coverage" NAME="test Coverage Results" MODIFIED="1595313148056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

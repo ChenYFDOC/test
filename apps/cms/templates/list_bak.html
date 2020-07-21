@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+        trs = $("tbody tr")
+        $("svg.bi-arrow-bar-down").click(function () {
+            lable = this.attributes["data-lable"].value
+            page = $(".layui-laypage-curr").children("em:last-child").text()
+            $.get('/user_info/', {lable, page}, function (data) {
+                index=0;
+                for (tr of trs) {
+                    console.log(trs.length)
+                    $($(tr).children("td")[0]).text(data[index]["name"])
+                    $($(tr).children("td")[1]).text(data[index]["gender"])
+                    $($(tr).children("td")[2]).text(data[index]["phone"])
+                    $($(tr).children("td")[3]).text(data[index]["email"])
+                    $($(tr).children("td")[4]).text(data[index]["depart_id"])
+                    index++;
+                }
+            }, 'json')
+        })
+    </script>
+</html>
