@@ -13,7 +13,6 @@ class DefaultRander(MiddlewareMixin):
             for menu in leftMenu:
                 if mclass['id'] == menu['_class_id']:
                     mclass['menu'].append(menu)
-        print(menuClass)
         try:
             response.context_data['left_menu'] = menuClass
         except:

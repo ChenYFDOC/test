@@ -3,8 +3,10 @@ from .models import *
 from django.contrib.auth import get_user_model
 from django.forms.models import model_to_dict
 
-
 # Register your models here.
+
+admin.site.site_header = '亿赛通超级管理员后台'
+admin.site.site_title = '亿赛通超级管理员后台'
 
 
 class ConfigAdmin(admin.ModelAdmin):

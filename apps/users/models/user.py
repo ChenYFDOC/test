@@ -39,7 +39,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     phone = models.CharField(max_length=20, verbose_name='电话')
     group_id = models.ForeignKey('users.Group', null=True, blank=True, on_delete=models.SET_NULL, verbose_name='部门')
     role_id = models.ForeignKey('users.Role', null=True, blank=True, on_delete=models.SET_NULL, verbose_name='用户角色')
-    # is_active = models.BooleanField(default=True, verbose_name='活动状态')
+    is_active = models.BooleanField(default=True, verbose_name='活动状态')
     is_deleted = models.BooleanField(default=False, verbose_name='删除状态')
     created_by = models.CharField(max_length=32, default=username, verbose_name='创建人')
     created_on = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')

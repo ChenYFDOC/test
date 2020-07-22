@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a53074d-ac65-4d8a-8487-053dae3ee1d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0002_user_is_active.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/cms/middleware/renderMiddleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/middleware/renderMiddleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/cms/static/js/rbac.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/cms/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/cms/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/cms/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/cms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auzm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/auzm/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +48,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eks8tMTLUbvsEZPhX4wCAe83ks" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -49,7 +60,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -58,18 +69,18 @@
       <recent name="https://github.com/jumpserver/jumpserver.git" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\t\Desktop\auzm\apps\cms\static\imgs" />
       <recent name="C:\Users\t\Desktop\auzm\apps\cms\static\js" />
       <recent name="C:\Users\t\Desktop\auzm\apps\cms\static\css" />
       <recent name="C:\Users\t\Desktop\auzm" />
       <recent name="C:\Users\t\Desktop\auzm\apps" />
-      <recent name="D:\000MyProjects\10PycharmProjects\auzm\apps\users\models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\t\Desktop\auzm\static" />
+      <recent name="C:\Users\t\Desktop\auzm\apps\cms\static\imgs" />
       <recent name="C:\Users\t\Desktop\auzm\apps\cms\static\plugins\bootstrap" />
       <recent name="C:\Users\t\Desktop\auzm\apps" />
       <recent name="C:\Users\t\Desktop\auzm\apps\cms" />
-      <recent name="C:\Users\t\Desktop\auzm\apps\cms\templates" />
-      <recent name="C:\Users\t\Desktop\auzm\apps\users" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.AUZM">
@@ -154,7 +165,8 @@
       <workItem from="1595236846279" duration="1096000" />
       <workItem from="1595237957639" duration="2216000" />
       <workItem from="1595292935801" duration="29550000" />
-      <workItem from="1595385253082" duration="11326000" />
+      <workItem from="1595385253082" duration="25564000" />
+      <workItem from="1595412070911" duration="789000" />
     </task>
     <servers />
   </component>
@@ -170,10 +182,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="581" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595239660117" />
-    <state x="866" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595316073862">
+    <state x="866" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595403961067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="866" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595316073862" />
+    <state x="866" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595403961067" />
     <state x="292" y="104" key="CommitChangelistDialog2" timestamp="1595395215170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -182,22 +194,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1320" y="227" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595229996042" />
-    <state width="1340" height="239" key="GridCell.Tab.0.bottom" timestamp="1595396853575">
+    <state width="1340" height="239" key="GridCell.Tab.0.bottom" timestamp="1595412104363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595396853575" />
-    <state width="1340" height="239" key="GridCell.Tab.0.center" timestamp="1595396853575">
+    <state width="1340" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595412104363" />
+    <state width="1340" height="239" key="GridCell.Tab.0.center" timestamp="1595412104362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595396853575" />
-    <state width="1340" height="239" key="GridCell.Tab.0.left" timestamp="1595396853575">
+    <state width="1340" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595412104362" />
+    <state width="1340" height="239" key="GridCell.Tab.0.left" timestamp="1595412104362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595396853575" />
-    <state width="1340" height="239" key="GridCell.Tab.0.right" timestamp="1595396853575">
+    <state width="1340" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595412104362" />
+    <state width="1340" height="239" key="GridCell.Tab.0.right" timestamp="1595412104362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595396853575" />
+    <state width="1340" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595412104362" />
     <state width="1340" height="296" key="GridCell.Tab.1.bottom" timestamp="1595232445529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -214,18 +226,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1340" height="296" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595232445529" />
-    <state x="418" y="119" key="SettingsEditor" timestamp="1595321755398">
+    <state x="795" y="202" width="993" height="740" key="SettingsEditor" timestamp="1595411933170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="418" y="119" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595321755398" />
+    <state x="795" y="202" width="993" height="740" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595411933170" />
     <state x="272" y="243" key="Vcs.Push.Dialog.v2" timestamp="1595395247415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595395247415" />
-    <state x="911" y="297" key="com.intellij.ide.util.TipDialog" timestamp="1595385255026">
+    <state x="911" y="297" key="com.intellij.ide.util.TipDialog" timestamp="1595412070734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="911" y="297" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595385255026" />
+    <state x="911" y="297" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595412070734" />
     <state x="1416" y="307" width="672" height="678" key="search.everywhere.popup" timestamp="1594887375512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

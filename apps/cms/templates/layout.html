@@ -3,10 +3,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>权限管理页面</title>
+    <title>权限管理系统</title>
     <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
-    <link rel="stylesheet" href="{% static 'plugins/bootstrap/css/bootstrap.css' %} "/>
     <script src="{% static 'plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap/css/bootstrap.css' %} "/>
     <link rel="shortcut icon" href="{% static 'imgs/default.png' %} ">
     <link rel="stylesheet" href="{% static 'plugins/font-awesome/css/font-awesome.css' %} "/>
     <link rel="stylesheet" href="{% static 'css/commons.css' %} "/>
@@ -62,14 +62,6 @@
             font-size: 14px;
             overflow: auto;
         }
-
-        .layui-card-one {
-            height: 50px;
-            line-height: 50px;
-            border-bottom: 1px solid #ddd;
-            padding: 0 17px;
-            background-color: white;
-        }
     </style>
     <!--某些单独的页面需要用自己的css-->
     {% block css %}{% endblock %}
@@ -78,22 +70,9 @@
 <!--顶部-->
 <div class="layui-header">
     <div>
-        <span style="color: #fff; font-size: 14px; line-height: 60px; margin-left: 60px">亿赛通管理系统</span>
+        <span style="color: #fff; font-size: 14px; line-height: 60px; margin-left: 60px"><img
+                src="{% static 'imgs/topicon.png' %}" style="margin-right: 1em">亿赛通管理系统</span>
     </div>
-    <!-- 头部区域 -->
-    {#    <ul class="layui-nav layui-layout-left">#}
-    {#        <li class="layui-nav-item layui-hide-xs" lay-unselect="">#}
-    {#            <a href="https://github.com/wkunzhi/CRM-Manage" target="_blank" title="GitHub"><i#}
-    {#                    class="layui-icon layui-icon-star-fill"></i> GitHub#}
-    {#            </a>#}
-    {#        </li>#}
-    {#        <li class="layui-nav-item" lay-unselect="">#}
-    {#            <a href="https://blog.zhangkunzhi.com/2019/12/13/crm%E7%BB%84%E4%BB%B6%E4%BD%BF%E7%94%A8/index.html" target="_blank" layadmin-event="refresh" title="使用说明"><i#}
-    {#                    class="layui-icon layui-icon-read"></i> 使用说明#}
-    {#            </a>#}
-    {#        </li>#}
-    {#        <span class="layui-nav-bar" style="width: 0px; left: 142px; opacity: 0; top: 48px;"></span>#}
-    {#    </ul>#}
     <ul class="layui-nav layui-layout-right" lay-filter="layadmin-layout-right">
         <li class="layui-nav-item" lay-unselect="">
             <a href="javascript:;"> <cite><i class="layui-icon layui-icon-username"></i> 用户</cite> <span
@@ -102,9 +81,6 @@
                 <dd layadmin-event="logout" style="text-align: center;"><a href="/logout/">退出</a></dd>
             </dl>
         </li>
-        {#        <li class="layui-nav-item layui-hide-xs" lay-unselect="">#}
-        {#            <a href="javascript:;" layadmin-event="about"><i class="layui-icon layui-icon-more-vertical"></i></a>#}
-        {#        </li>#}
     </ul>
 </div>
 <!--下部-->
@@ -145,14 +121,11 @@
     </div>
     <!--右侧-->
     <div class="right-body">
-        <div class="layui-card-one">
-        </div>
-        <div class="right-t-body">
+        <div class="right-t-body align-content-center">
             {% block content %} {% endblock %}
         </div>
     </div>
 </div>
-<script src="{% static 'js/rbac.js' %} "></script>
 <!--某些单独的页面需要用自己的js-->
 <script>
     layui.use('element', function () {
