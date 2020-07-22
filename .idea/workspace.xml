@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a53074d-ac65-4d8a-8487-053dae3ee1d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/cms/migrations/0004_auto_20200722_1100.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/middleware/renderMiddleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/middleware/renderMiddleware.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/static/plugins/bootstrap/js/npm.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/cms/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/templates/layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +154,7 @@
       <workItem from="1595236846279" duration="1096000" />
       <workItem from="1595237957639" duration="2216000" />
       <workItem from="1595292935801" duration="29550000" />
-      <workItem from="1595385253082" duration="8938000" />
+      <workItem from="1595385253082" duration="10518000" />
     </task>
     <servers />
   </component>
@@ -203,26 +174,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="866" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595316073862" />
+    <state x="292" y="104" key="CommitChangelistDialog2" timestamp="1595395215170">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="292" y="104" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595395215170" />
     <state x="1320" y="227" key="FileChooserDialogImpl" timestamp="1595229996042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1320" y="227" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595229996042" />
-    <state width="1340" height="239" key="GridCell.Tab.0.bottom" timestamp="1595394780236">
+    <state width="1340" height="239" key="GridCell.Tab.0.bottom" timestamp="1595396541898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595394780236" />
-    <state width="1340" height="239" key="GridCell.Tab.0.center" timestamp="1595394780236">
+    <state width="1340" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595396541898" />
+    <state width="1340" height="239" key="GridCell.Tab.0.center" timestamp="1595396541898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595394780236" />
-    <state width="1340" height="239" key="GridCell.Tab.0.left" timestamp="1595394780236">
+    <state width="1340" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595396541898" />
+    <state width="1340" height="239" key="GridCell.Tab.0.left" timestamp="1595396541897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595394780236" />
-    <state width="1340" height="239" key="GridCell.Tab.0.right" timestamp="1595394780236">
+    <state width="1340" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595396541897" />
+    <state width="1340" height="239" key="GridCell.Tab.0.right" timestamp="1595396541898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595394780236" />
+    <state width="1340" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595396541898" />
     <state width="1340" height="296" key="GridCell.Tab.1.bottom" timestamp="1595232445529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -243,6 +218,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="418" y="119" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595321755398" />
+    <state x="272" y="243" key="Vcs.Push.Dialog.v2" timestamp="1595395247415">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="272" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595395247415" />
     <state x="911" y="297" key="com.intellij.ide.util.TipDialog" timestamp="1595385255026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

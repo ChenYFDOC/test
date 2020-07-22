@@ -16,9 +16,8 @@
     <script src="{% static '/layui/layui.js' %}"></script>
 
     <style>
-        .list-group button {
+        .list-group a {
             background-color: #e2e3e5;
-            text-decoration: none;
             text-align: center;
         }
 
@@ -135,8 +134,8 @@
                              data-parent="#accordionExample">
                             <ul class="list-group card-body">
                                 {% for item in menuClass.menu %}
-                                    <button class="list-group-item"><a href="{{ item.url }}">{{ item.name }}</a>
-                                    </button>
+                                    <a class="btn btn-secondary list-group-item"
+                                       href="{{ item.url }}">{{ item.name }}</a>
                                 {% endfor %}
                             </ul>
                         </div>
@@ -167,11 +166,11 @@
 {% block js %} {% endblock %}
 
 <script>
-    let buttons = $('.list-group').children('button');
-    for (button of buttons) {
-        button = $(button);
-        if (button.find('a').attr('href') === window.location.pathname) {
-            button.addClass('active')
+    let as = $('.list-group').children('a');
+    for (a of as) {
+        a = $(a);
+        if (a.attr('href') === window.location.pathname) {
+            a.addClass('active')
         }
     }
 </script>
