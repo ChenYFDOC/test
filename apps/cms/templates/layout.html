@@ -141,7 +141,10 @@
     let as = $('.list-group').children('a');
     for (a of as) {
         a = $(a);
-        if (a.attr('href') === window.location.pathname) {
+        let href = a.attr('href')
+        href = href.endsWith('/') ? href : href + '/'
+        console.log(href)
+        if (href === window.location.pathname) {
             a.addClass('active')
         }
     }

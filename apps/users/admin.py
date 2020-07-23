@@ -10,12 +10,14 @@ admin.site.site_title = '亿赛通超级管理员后台'
 
 
 class ConfigAdmin(admin.ModelAdmin):
-    exclude = ('id', 'created_by')
+    exclude = ('id', 'created_by', 'groups', 'user_permissions')
 
     def save_model(self, request, obj, form, change):
-        if obj.created_by:
+        try:
             obj.created_by = request.user.username
-        obj.save()
+            obj.save()
+        except:
+            obj.save()
 
 
 class ConfigAdminForUser(ConfigAdmin):

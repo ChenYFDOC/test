@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block content %}
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col">权限名</th>
+            <th scope="col">所属一级菜单</th>
+            <th scope="col">所属二级菜单</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for perm in permList %}
+            <tr>
+                <td>{{ perm.title }}</td>
+                <td>{{ perm.menu_id__name }}</td>
+                <td>{{ perm.url__name }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

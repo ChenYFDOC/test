@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block content %}
+    <div class="container">
+        {% for role in roleList %}
+            <ul class="list-group col-lg-4">
+                <li class="list-group-item active">{{ role.title }}</li>
+                {% for perm in role.permission_id__title %}
+                    <li class="list-group-item">{{ perm }}</li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </div>
+{% endblock %}
