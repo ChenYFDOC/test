@@ -6,14 +6,15 @@ import copy
 
 @login_required
 def index(request):
-    return TemplateResponse(request, 'index.html')
+    return TemplateResponse(request, 'users/index.html')
 
 
 @login_required
 def usermanager(request):
     userList = User.objects.values('username', 'group_id__name', 'role_id__title', 'is_active', 'phone', 'email',
                                    'created_on')
-    return TemplateResponse(request, 'usermanager.html', context={'usermessages': userList})
+    return TemplateResponse(request, 'users/usermanager.html',
+                            context={'usermessages': userList, 'items': ['姓名', '邮箱', '手机']})
 
 
 @login_required
@@ -63,12 +64,13 @@ def role(request):
                 time = struct[i]
             except:
                 pass
-    return TemplateResponse(request, 'role.html', context={'roleList': roles})
+    return TemplateResponse(request, 'users/role.html', context={'roleList': roles})
 
 
+@login_required
 def permissions(request):
     permList = Permission.objects.values('title', 'url__name', 'menu_id__name')
-    return TemplateResponse(request, 'permissions.html', context={'permList': permList})
+    return TemplateResponse(request, 'users/permissions.html', context={'permList': permList})
 # @login_required(login_url=reverse('login'))
 # def get_user_info(request):
 #     lable_map = {

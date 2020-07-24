@@ -7,7 +7,7 @@
     <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
     <script src="{% static 'plugins/bootstrap/js/bootstrap.min.js' %}"></script>
     <link rel="stylesheet" href="{% static 'plugins/bootstrap/css/bootstrap.css' %} "/>
-    <link rel="shortcut icon" href="{% static 'imgs/default.png' %} ">
+    <link rel="shortcut icon" href="{% static 'imgs/topicon.png' %} ">
     <link rel="stylesheet" href="{% static 'plugins/font-awesome/css/font-awesome.css' %} "/>
     <link rel="stylesheet" href="{% static 'css/commons.css' %} "/>
     <link rel="stylesheet" href="{% static 'css/nav.css' %} "/>
@@ -49,7 +49,7 @@
         }
 
         .pg-body, .left-menu, .left-tree {
-        {#height: 100%;#} background-color: #272a33;
+            background-color: #272a33;
         }
 
         .pg-body > .right-body {
@@ -58,7 +58,7 @@
             float: left;
             height: 100%;
             width: calc(100% - 200px);
-        {#position: absolute;#} border: 1px solid #ddd;
+            border: 1px solid #ddd;
             font-size: 14px;
             overflow: auto;
         }
@@ -104,10 +104,11 @@
                             </h2>
                         </div>
                         <div id="collapse{{ forloop.counter }}"
-                             class="collapse{% if forloop.counter == 1 %} in{% endif %} "
+                             class="collapse"
                              aria-labelledby="heading{{ forloop.counter }}"
-                             data-parent="#accordionExample">
-                            <ul class="list-group card-body">
+                             data-parent="#accordionExample"
+                             aria-expanded="false">
+                            <ul class="list-group card-body" style="margin: 0">
                                 {% for item in menuClass.menu %}
                                     <a class="btn btn-secondary list-group-item"
                                        href="{{ item.url }}">{{ item.name }}</a>
@@ -136,7 +137,6 @@
     });
 </script>
 {% block js %} {% endblock %}
-
 <script>
     let as = $('.list-group').children('a');
     for (a of as) {
@@ -146,6 +146,9 @@
         console.log(href)
         if (href === window.location.pathname) {
             a.addClass('active')
+            a_parent = a.parent().parent()
+            a_parent.addClass('in')
+            a_parent.attr('aria-expanded', 'true')
         }
     }
 </script>

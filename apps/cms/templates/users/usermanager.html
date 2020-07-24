@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block css %}
+    <style>
+        thead.thead-dark {
+            background-color: #e2e3e5;
+        }
+    </style>
+{% endblock %}
+{% block content %}
+    {% include 'selectToSearch.html' with to='查询 ∨' items=items %}
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">用户名</th>
+            <th scope="col">部门</th>
+            <th scope="col">角色</th>
+            <th scope="col">状态</th>
+            <th scope="col">电话</th>
+            <th scope="col">邮箱</th>
+            <th scope="col">创建时间</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for user in usermessages %}
+            <tr>
+                <td>{{ user.username }}</td>
+                <td>{{ user.group_id__name }}</td>
+                <td>{{ user.role_id__title }}</td>
+                <td>{{ user.is_active }}</td>
+                <td>{{ user.phone }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.created_on }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

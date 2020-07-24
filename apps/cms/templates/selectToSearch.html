@@ -1,0 +1,26 @@
+<style>
+    div.div-input {
+        width: 25em;
+    }
+
+    div.dropdown {
+        position: absolute;
+        left: 25em;
+        z-index: 100;
+    }
+</style>
+<div class="input-group div-input">
+    <input type="text" class="form-control" placeholder="请输入查询内容，不输入默认全部内容显示" aria-label="自定义查询">
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" style="background-color: #8c8c8c"
+                aria-haspopup="true" aria-expanded="false">
+            {{ to }}
+        </button>
+        <div class="dropdown-menu list-group" style="padding: 0" aria-labelledby="dropdownMenuButton">
+            {% for item in items %}
+                <a href="#" class="list-group-item list-group-item-action">{{ item }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
